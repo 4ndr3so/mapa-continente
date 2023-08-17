@@ -1,0 +1,4 @@
+export const FETCH_MAPA= 'FETCH_MAPA';
+export const SELECT_DATA= 'SELECT_DATA';
+export const ADD_TODO_FAILURE= 'ADD_TODO_FAILURE';
+export const ADD_TODO_STARTED= 'ADD_TODO_STARTED';

@@ -1,0 +1,172 @@
+.App{
+    position: relative;
+}
+.texto1 p:nth-of-type(1){
+        
+    font-weight: bold;
+    font-size: 1em;
+    color: black;
+    
+      }
+.texto1 p{
+    margin-bottom: 0px;
+}
+
+.texto1{
+    font-family: "Josefin-sans", sans-serif,Arial;
+    color:#ff671b;
+    position: absolute; 
+    right: 60px;
+    top: 40px;
+    z-index: 1;
+    width: 283px;
+    text-align: right;
+    margin-top: 0;
+    margin-bottom: 0px;
+    letter-spacing: 3px;
+    font-size: 0.9em;
+}
+.texto1 img{
+    width: 40px;
+    margin-bottom: 13px;
+
+}
+.texto2{
+    cursor: pointer;
+    color:#ff671b;
+    position: absolute; 
+    left: 60px;
+    bottom: 40px;
+    z-index: 1;
+    width: 300px;
+    text-align: left;
+    display: table; 
+}
+.global{
+    vertical-align: middle;
+    display: table-cell;
+}
+.globalImg{
+    margin-right: -16px;
+}
+.texto2 p{
+    margin-bottom:0px;
+    letter-spacing: 5px;
+}
+.texto2 p:nth-of-type(2){
+    font-weight: bold;
+}
+.texto2 p:nth-of-type(1){
+        
+    font-weight: bold;
+    
+    font-size: 1.5rem;
+
+    margin-bottom: 25px;
+
+    font-family: "Josefin-sans", sans-serif,Arial;
+  }
+.mapaStyle{
+    position:relative; 
+    width: 600px; 
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.separador{
+    
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+}
+.separador p{
+    margin-bottom: 0px;
+    letter-spacing: 5px;
+}
+.cajaInfo{
+    border-bottom: 2px solid #b3abab;
+    background-color: white;
+    line-height: 17px;
+    
+}
+
+.infoCajaInfo {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+.infoCajaInfo  p{
+    margin: 0px;
+    font-family:  Calibri, 'Trebuchet MS', sans-serif;
+}
+.naranja{
+    background-color: #ff671b;
+}
+.verde{
+    background-color: #acd030;
+}
+.correoF{
+    color:#ff671b;
+    
+}
+.centroF{
+    color:#666666;
+    
+}
+.nombreR{
+    color: #1b1b1b;
+    font-weight: 400;
+    margin-top: 3px !important;
+}
+.mesaF{
+    color: #ff671b;
+    font-weight: bold;
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+.modal-content{
+    background-color: transparent !important;
+    border:none !important;
+}
+.modal-body{
+    padding: 0 !important;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+  .modal, .modal-backdrop {
+    position: absolute !important;
+}
+.modal-header{
+    background-image: url("./../assets/img/ubica_logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-bottom: none !important;
+}
+.modal-header button span{color:white;}
+.close {
+    opacity: 1 !important;
+}
+.modal-footer{
+    border-top: none !important;
+}
+
+.centroN{
+    font-weight: bold;
+    margin-bottom: 3% !important;
+}
+@media (min-width: 576px)
+{
+.modal-dialog {
+    max-width: 390px !important;
+    margin: 1.75rem auto;
+}
+}
+.texto1int{
+    font-size: 1.5rem;
+}
